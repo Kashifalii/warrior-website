@@ -200,13 +200,13 @@ header .container .main-text p {
     text-transform: capitalize;
 }
 
-@-webkit-keyframes typing {
+@keyframes typing {
     from {
         width: 0;
     }
 }
 
-@-webkit-keyframes blink-caret {
+@keyframes blink-caret {
     50% {
         border-color: transparent;
     }
@@ -222,7 +222,7 @@ header .container .main-text p {
     margin: 1em 0;
     white-space: nowrap;
     overflow: hidden;
-    -webkit-animation: typing 3s steps(53, end),
+    animation: typing 3s steps(53, end),
         blink-caret .5s step-end infinite alternate;
 }
 
