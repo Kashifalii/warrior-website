@@ -196,7 +196,7 @@ header .container .main-text h1 span {
 
 header .container .main-text p {
     color: rgb(206, 206, 206);
-    font-weight: 100;
+    font-weight: 200 !important;
     text-transform: capitalize;
 }
 
@@ -454,9 +454,8 @@ header .container .main-text .channels a img:hover {
 
 .sec1 .container .about .txt-wrap #work {
     color: #8e8e8e;
-    font-weight: lighter;
     letter-spacing: 2px;
-    font-style: italic;
+    /* font-style: italic; */
     text-transform: uppercase;
     font-size: 11px;
     margin: 0;
@@ -630,7 +629,7 @@ header .container .main-text .channels a img:hover {
 
 .sec2 .container .heading .one #title {
     color: white;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 13px;
 }
 
@@ -736,16 +735,14 @@ header .container .main-text .channels a img:hover {
 .sec2 .container .article-content .txt-grp #title {
     color: white;
     font-weight: 300;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     font-size: 15px;
 }
 
 .sec2 .container .article-content .txt-grp #since {
     color: rgb(165, 165, 165);
-    font-weight: 100;
     font-size: 10px;
     margin-bottom: 5px;
-    /* font-style: italic; */
     letter-spacing: .3px;
 }
 
@@ -1181,9 +1178,9 @@ header .container .main-text .channels a img:hover {
 }
 
 .sec3 .container .heading p {
-    color: white;
+    color: rgb(236, 236, 236);
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 300;
     margin-top: 30px;
     font-family: "Josefin Sans", sans-serif;
     text-transform: capitalize;
