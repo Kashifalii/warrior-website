@@ -200,13 +200,13 @@ header .container .main-text p {
     text-transform: capitalize;
 }
 
-@keyframes typing {
+@-webkit-keyframes typing {
     from {
         width: 0;
     }
 }
 
-@keyframes blink-caret {
+@-webkit-keyframes blink-caret {
     50% {
         border-color: transparent;
     }
@@ -222,7 +222,7 @@ header .container .main-text p {
     margin: 1em 0;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 3s steps(53, end),
+    -webkit-animation: typing 3s steps(53, end),
         blink-caret .5s step-end infinite alternate;
 }
 
@@ -335,6 +335,11 @@ header .container .main-text .channels a img:hover {
 }
 
 @media (max-width: 574.98px) {
+    header {
+        background-image: none;
+        background: #000;
+    }
+
     header .container .main-text h1 {
         margin-top: 135px;
         font-size: 45px;
